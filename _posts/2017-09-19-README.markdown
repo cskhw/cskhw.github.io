@@ -14,16 +14,7 @@ Jekyll Xixia
 * See the [live demo](http://xixia.info/jekyll-xixia/).
 * See it [in action on my own blog](http://xixia.info/).
 
-A simple and clean Jekyll theme using [bootstrap](http://getbootstrap.com)
-(not to be confused with jekyll-bootstrap) that's easy to modify and very
-modular in component and element reuse.
-
-The theme works well on mobile phones, using a collapsable nav bar and hiding the
-sidebar. The links pane in the sidebar is available on mobile through the nav menu,
-and you can do the same thing for any other sections added to the sidebar.
-
-Don't forget to occassionally merge against my upstream repository so you can get
-the latest changes. Pull requests are encouraged and accepted!
+이 블로그는 Jekyll Xixia의 깃허브를 포크해 만들었습니다.
 
 Preview
 =======
