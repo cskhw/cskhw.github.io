@@ -1,66 +1,95 @@
-# Edition
 
-Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
-Start documenting your product, application, service or website with this configurable theme.
 
-![Edition template screenshot](images/_screenshot.png)
+### devlopr-jekyll - A Jekyll Theme Built for Developers
 
-Edition was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+[![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
+![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+### Deploy your Blog using devlopr-jekyll - [Get Started](https://devlopr.netlify.com/get-started)
 
-## Features
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/devlopr-jekyll)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sujaykundu777/devlopr-jekyll)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sujaykundu777/devlopr-jekyll)
 
-* Two column layout
-* Full text search
-* Pre-styled components
-* Auto-generated navigation based on category
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* Change log
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+### Demo (Hosted Apps)
 
-## Setup
+- Github Pages Demo - [here](https://sujaykundu.com)
+- Netlify Demo - [here](https://devlopr.netlify.com)
+- Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
+- Heroku Demo - [here](https://devlopr-jekyll.herokuapp.com)
+- AWS Amplify Demo - [here](https://master.d3t30wwddt6jju.amplifyapp.com/)
 
-1. Add your site and author details in `_config.yml`.
-2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+#### Features :
 
-## Develop
+- Supports Latest [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io)
+- SEO, Google Adsense and Analytics Optimized
+- CMS Admin support using [Forestry](https://forestry.io)
+- Real Time Search using [Algolia](https://algolia.com/)
+- Sell Stuff (Ecommerce) in your Blog using [Snipcart](https://snipcart.com/)
+- Send Newsletters using [Mailchimp](https://mailchimp.com/)
+- Contact Forms using [Formspree](https://formspree.io/)
+- Coding Activity using [Wakatime](https://wakatime.com/)
+- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com)
 
-Edition was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+## Upcoming Features (In development) :
 
-Install the dependencies with [Bundler](http://bundler.io/):
+-  Image Gallery Support
 
-~~~bash
-$ bundle install
-~~~
+## Using Docker :
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+Building the Image :
 
-~~~bash
-$ bundle exec jekyll serve
-~~~
+`docker build -t my-devlopr-jekyll-blog .`
 
-## Editing
+Running the container :
 
-Edition is already optimised for adding, updating and removing documentation pages in CloudCannon.
+`docker run -d -p 4000:4000 -it --volume="$PWD:/srv/jekyll" --name "my_blog" my-devlopr-jekyll-blog:latest jekyll serve --watch`
 
-### Documentation pages
+## Using Docker Compose :
 
-* Add, update or remove a documentation page in the *Documentation* collection.
-* Change the category of a documentation page to move it to another section in the navigation.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
+### Development :
 
-### Change log
+You can run the app in development mode : (your changes will be reflected --watch moded)
 
-* Add, update or remove change log entries from your posts.
-* Tag entries as minor or major in the front matter.
+Serve the site at http://localhost:4000 :
 
-### Search
+`docker-compose -f docker-compose-dev.yml up --build --remove-orphans`
 
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+### Production :
 
-### Navigation
+You can run the app in production mode : (your changes will be reflected --watch moded)
 
-* Change `site.show_full_navigation` to control all or only the current navigation group being open.
+Serve the site at http://localhost:4000 :
+
+`docker-compose -f docker-compose-prod.yml up --build --remove-orphans`
+
+Stop the app :
+`docker-compose -f docker-compose-prod.yml down`
+Once everything is good and ready to go live -
+
+`docker-compose -f docker-compose-prod.yml up --build --detach`
+
+## Contributions:
+
+Contributions are more than just welcome. Fork this repo and create a new branch, then submit a pull request
+
+- 1.Fork it [http://github.com/sujaykundu777/devlopr-jekyll/fork](http://github.com/sujaykundu777/devlopr-jekyll/fork )
+
+- 2.Create your feature branch
+`git checkout -b my-new-feature`
+
+- 3.Commit your changes
+`git commit -am 'Add some feature'`
+
+- 4.Push to the branch
+`git push origin my-new-feature`
+
+- 5.Create new Pull Request
+
+## Licence
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+
+
