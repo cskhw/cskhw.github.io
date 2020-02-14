@@ -1,16 +1,43 @@
-{% include header.html %}
+---
+layout: compress
+---
 
-<div class="wrap">
-    <div class="container container-left">
-        <div class="row">
-            <div class="col-md-3 hidden-xs">
-                {% include sidebar.html %}
-            </div>
-            <div class="col-md-9">
-                {{ content }}
-            </div>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+{%- include head.html -%}
+
+<body>
+
+
+    <div class="container-fluid">
+
+        {%- include header.html -%}
+
+
+        <div class="col-lg-12">
+            {{ content }}
+
+         <div class="row" id="newsletter_footer">
+               {%- include blog_newsletter.html -%}
+         </div>
         </div>
-    </div>
+        {%- include footer.html -%}
 
-    {% include footer.html %}
-</div>
+    </div>
+     <script>
+            var options = {
+                classname: 'my-class',
+                id: 'my-id'
+            };
+            var nanobar = new Nanobar( options );
+            nanobar.go( 30 );
+            nanobar.go( 76 );
+            nanobar.go(100);
+        </script>
+
+    <div hidden id="snipcart" data-api-key="Y2I1NTAyNWYtMTNkMy00ODg0LWE4NDItNTZhYzUxNzJkZTI5NjM3MDI4NTUzNzYyMjQ4NzU0"></div>
+<script src="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.js" defer></script>
+   <script src="/assets/js/mode-switcher.js"></script>
+</body>
+</html>
