@@ -12,24 +12,24 @@ Hello! I'm korean Junior White **hacker**!
 경험한 기술 스택 목록
 
 <ul style="font-family: 'Noto Serif Kr', serif;">
-프로그래밍 언어
+프로그래밍 언어<br>
     <li>C, C++</li>
     <li>Java</li>
-스크립트 언어
+스크립트 언어<br>
     <li>python</li>
     <li>JavaScript</li>
     <li>Node.js</li>
-마크업 언어
+마크업 언어<br>
     <li>html, scss</li>
-프론트엔드
+프론트엔드<br>
     <li>react</li>
-백엔드
+백엔드<br>
     <li>django</li>
-서버
+서버<br>
     <li>linux-kali</li>
-데이터베이스
+데이터베이스<br>
     <li>oracle db 12c</li>
-해킹툴
+해킹툴<br>
     <li>sqlmap</li>
     <li>Burp Suite</li>
 </ul>
