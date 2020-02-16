@@ -1,6 +1,6 @@
 ---
 title: 연구실 홈페이지 구축
-category: 프로젝트
+category: Project
 order: 1
 ---
 
