@@ -1,6 +1,6 @@
 ---
 title: Video
-category: Media
+category: 웹
 order: 2
 ---
 
