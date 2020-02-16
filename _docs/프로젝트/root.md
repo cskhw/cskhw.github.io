@@ -7,6 +7,8 @@ order: 1
 강원대학교 정보보증 연구실과 해킹 동아리 'root'를 위한 홈페이지 구축
 
 기술: React, Express, Next, django, Sqlite
+참여 인원: cskhw
+Github 주소: https://github.com/cskhw/PDsonpage
 
 >설명
 
