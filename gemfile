@@ -1,9 +1,36 @@
 source 'https://rubygems.org'
 
+<<<<<<< HEAD
 gem 'jekyll', '3.8.4'
 
 group :jekyll_plugins do
   gem 'jekyll-feed', '0.11.0'
   gem 'jekyll-seo-tag', '2.5.0'
   gem 'jekyll-sitemap', '1.2.0'
+=======
+gem 'jekyll', '~> 4.0.0'
+gem 'bundler'
+gem 'kramdown'
+gem 'rack-jekyll'
+gem 'rake'
+gem 'puma'
+gem 'jekyll-admin', group: :jekyll_plugins
+
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# gem "github-pages", group: :jekyll_plugins
+
+# Plugins
+group :jekyll_plugins do
+    gem 'devlopr', '~> 0.4.5'
+    gem 'jgd', '~> 1.12'
+    gem 'jekyll-feed', '~> 0.13.0'
+    gem 'jekyll-paginate', '~> 1.1.0'
+    gem 'jekyll-gist', '~> 1.5.0'
+    gem 'jekyll-seo-tag', '~> 2.6.1'
+    gem 'jekyll-sitemap', '~> 1.4.0'
+    gem 'jekyll-algolia', '~> 1.6'
+    gem 'jekyll-menus', '~> 0.6.1'
+    gem 'jekyll-admin'
+>>>>>>> bd92c329de7da7a11499c8f9177771fbe6bfa2b3
 end
