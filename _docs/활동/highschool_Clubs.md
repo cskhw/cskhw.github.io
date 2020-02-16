@@ -5,8 +5,8 @@ order: 2
 ---
 <p><span class="date">{{ change.date | date: "%B %d, %Y" }}</span> <span class="badge {{ change.type }}">{{ change.type }}</span></p>
 
-활동명:소프트웨어 동아리
-장소: 서울대학교사범대학부설고등학교 정보실
+활동명:소프트웨어 동아리<br>
+장소: 서울대학교사범대학부설고등학교 정보실<br>
 기간: 2014/03/11 ~ 2014/07/15
 
 **설명**
