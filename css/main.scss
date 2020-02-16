@@ -28,5 +28,6 @@ $full-width-break: $nav-width + ($space * 4) + $content-max-width;
 @import "pygments";
 @import "typography";
 @import "code";
-@import "tables";
+@import "tables"; 
 @import "layout";
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap")
