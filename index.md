@@ -9,9 +9,18 @@ Hello! I'm korean Junior White **hacker**!
 본 블로그는 학습 정보 기록 및 프로젝트 내용을 기록하기 위해 만들었습니다.
 자유롭게 둘러보시고 궁금한 점은 메일을 통해 피드백을 남겨주세요. (사실 메일은 잘 안봅니다...ㅋㅋ)
 
+경력
+
+2019/03/13 Entered Kangwon Universiry's IALAB(Insurance Assurance Laboratory)<br>
+2022/02/01 Get a Kangwon University's bachelors's degree<br>
+
+
+
+
+
 경험한 기술 스택 목록
 
-<ul style="font-family: 'Noto Serif Kr', serif;">
+<ul>
 프로그래밍 언어<br>
 
     <li>C, C++</li>
