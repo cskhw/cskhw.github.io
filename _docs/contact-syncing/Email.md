@@ -8,12 +8,12 @@ You can contact me through Email.
 
 My Email is
 
-rlagusdn0828@naver.com
+rlagusdn0828@naver.com<br>
 gusdn0828@gmail.com
 
 Thanks!
 
-> Signing up with Naver automatically starts syncing contacts.
+> Signing up with Naver starts syncing contacts.
 
 To sync your contacts:
 
