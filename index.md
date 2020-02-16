@@ -8,10 +8,9 @@ Hello! I'm korean Junior White **hacker**!
 <span style="font-family: 'Noto Serif Kr', serif;">
 본 블로그는 학습 정보 기록 및 프로젝트 내용을 기록하기 위해 만들었습니다.
 자유롭게 둘러보시고 궁금한 점은 메일을 통해 피드백을 남겨주세요. (사실 메일은 잘 안봅니다...ㅋㅋ)
-</span>
 <span style="font-family: 'Noto Serif Kr', serif;">
 경험한 기술 스택 목록
-<ul>
+<ul style="font-family: 'Noto Serif Kr', serif;">
     프로그래밍 언어
     <li>C, C++</li>
     <li>Java</li>
@@ -33,6 +32,5 @@ Hello! I'm korean Junior White **hacker**!
     <li>sqlmap</li>
     <li>Burp Suite</li>
 </ul>
-</span>
 For a better world.
 
