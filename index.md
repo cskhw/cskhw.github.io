@@ -1,38 +1,34 @@
 ---
-title: Welcome
+title: Welcome to Cskhw's github blog!
 ---
 
-This is the **Edition** template from [CloudCannon](http://cloudcannon.com/).
-**Edition** is perfect for documenting your product, application or service.
-It's populated with example content to give you some ideas.
+Hello! I'm korean Junior White **hacker**!
 
-ChatApp is a fictional chat application for sending messages and media to others.
-Teams and friend groups would use ChatApp to stay up to date if it existed.
+본 블로그는 학습 정보 기록 및 프로젝트 내용을 기록하기 위해 만들었습니다.
+자유롭게 둘러보시고 궁금한 점은 메일을 통해 피드백을 남겨주세요. (사실 메일은 잘 안봅니다...ㅋㅋ)
 
-> [Sign up](http://example.com/signup) or learn more about ChatApp at [example.com](http://example.com/).
+경험한 기술 스택 목록
+<ul>
+    프로그래밍 언어
+    <li>C, C++</li>
+    <li>Java</li>
+    스크립트 언어
+    <li>python</li>
+    <li>JavaScript</li>
+    <li>Node.js</li>
+    마크업 언어
+    <li>html, scss</li>
+    프론트엔드
+    <li>react</li>
+    백엔드
+    <li>django</li>
+    서버
+    <li>linux-kali</li>
+    데이터베이스
+    <li>oracle db 12c</li>
+    해킹툴
+    <li>sqlmap</li>
+    <li>Burp Suite</li>
+</ul>
 
-### Getting Started
-
-Getting a message sent is quick and easy with ChatApp:
-
-1. Sign up for an account
-2. Add your friends from their email addresses
-3. Type a message or send a photo
-
-> Feel free to send us a message at [feedback@example.com](mailto:feedback@example.com) with your feedback.
-
-### Features
-
-Explore more of ChatApp by reading about our features:
-
-#### Media
-
-Send images, videos and other media to people. Sources include your computer, phone and Facebook.
-
-#### Contact Syncing
-
-Sync your contact list with your phone and/or Facebook contacts. Never lose your contacts between devices again!
-
-#### Devices
-
-ChatApp is available everywhere. Find out how to set it up on your all your devices.
+For a better world.
