@@ -42,5 +42,5 @@ Hello! I'm korean Junior White **hacker**!
 서버: centOS, Ubuntu<br>
 백엔드: node.js, django, php<br>
 <br>
-For a better world.
 
+For a better world.
