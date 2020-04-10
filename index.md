@@ -1,55 +1,37 @@
----
-title: Welcome to Cskhw's github blog!
+﻿---
+title: Welcome to cskhw WIKI!
 ---
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
 
 Hello! I'm korean Junior White **hacker**!
 
 <span style="font-family: 'Noto Serif Kr', serif;">
-본 블로그는 학습 정보 기록 및 프로젝트 내용을 기록하기 위해 만들었습니다.
-자유롭게 둘러보시고 궁금한 점은 메일을 통해 피드백을 남겨주세요. (사실 메일은 잘 안봅니다...ㅋㅋ)
 
-경력
+> cskhw를 기록하는 위키입니다.
 
-2019/03/13 Entered Kangwon Universiry's IALAB(Insurance Assurance Laboratory)<br>
-2022/02/01 Get a Kangwon University's bachelors's degree<br>
+## 이력
 
+* 2014.03.16 서울대학교사범대학부설중학교 소프트웨어 동아리 창설
+* 2015.03.06 ~ 07.21 삼성 주니어 소프트웨어 프로그램 이수
+* 2016.03.02 강원대학교 컴퓨터공학과 입학
+* 2019.03.14 ~ 현재 강원대학교 정보보증 연구실 연구원으로 재직
 
+## 활동
 
+* 날씨에 따른 옷 추천 어플리케이션 Nabi 개발
+* root 동아리 홈페이지 개발
+* IALAB 홈페이지 개발
+* 연구실 내 결제관리 시스템 개발(IAGO)
+* 연구실 내 서버 운영
+* MYDATA 활용을 위한 personium PDS 스토어 서버 개발(현재 진행 중)
+* 2019.12.14
 
+> 경험 언어
 
-경험한 기술 스택 목록
-
-<ul>
-프로그래밍 언어<br>
-
-    <li>C, C++</li>
-    <li>Java</li>
-스크립트 언어<br>
-
-    <li>python</li>
-    <li>JavaScript</li>
-    <li>Node.js</li>
-마크업 언어<br>
-
-    <li>html, scss</li>
-프론트엔드<br>
-
-    <li>react</li>
-백엔드<br>
-
-    <li>django</li>
-서버<br>
-
-    <li>linux-kali</li>
-데이터베이스<br>
-
-    <li>oracle db 12c</li>
-해킹툴<br>
-
-    <li>sqlmap</li>
-    <li>Burp Suite</li>
-</ul>
+프론트 엔드: html, css3, Sass, react-redux, view(학습 예정)
+스크립트 언어: python, javascripts\
+서버: centOS, Ubuntu
+백엔드: node.js, django, php
 
 For a better world.
 
