@@ -9,7 +9,7 @@ Hello! I'm korean Junior White **hacker**!
 
 > cskhw를 기록하는 위키입니다.
 
-절차형 -> 객체형 -> 함수형 프로그래밍\
+절차형 -> 객체형 -> 함수형 프로그래밍<br>
 다음 페러다임은 어떻게 될까?????????
 
 ## 이력
@@ -37,10 +37,10 @@ Hello! I'm korean Junior White **hacker**!
 
 > 경험
 
-프론트 엔드: html, css3, Sass, react.js, vue.js(학습 예정)\
-스크립트 언어: python, javascripts\
-서버: centOS, Ubuntu\
-백엔드: node.js, django, php\
-\
+프론트 엔드: html, css3, Sass, react.js, vue.js(학습 예정)<br>
+스크립트 언어: python, javascripts<br>
+서버: centOS, Ubuntu<br>
+백엔드: node.js, django, php<br>
+<br>
 For a better world.
 
