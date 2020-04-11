@@ -74,7 +74,7 @@
 				<h2>{% if page.category %}{{ page.category }}{% else %}{{ site.title }}{% endif %}</h2>
 				<h3>{{ page.title }}</h3>
 			</div>
-			<span class="date">{{ date | date: "%B %d, %Y" }}</span>
+			<p><span class="date">{{ site.docs.date | date: "%B %d, %Y" }}</span> <span class="badge {{ site.docs.type }}">{{ site.docs.type }}</span></p>
 			<article class="content">
 				{{ content }}
 			</article>
