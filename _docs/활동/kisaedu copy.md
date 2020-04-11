@@ -1,0 +1,23 @@
+---
+title: 제 1회 강원 디지털포렌식 세미나 참석
+category: Activity
+order: 4
+---
+
+장소: 강원대학교<br>
+기간: 2019/12/15 ~ 2019/11/28
+교육 프로그램: 웹 해킹 및 모의해킹
+
+**설명**
+
+제 1회 강원 디지털포렌식 세미나 참석<br>
+
+* 디지털포렌식 최근 기술 동향 발표<br>
+* 보안 알고리즘 기술 동향 발표<br>
+
+> 사진
+
+<img src="../../images/project/forensic/1.jpg" alt="forensic"><br>
+
+<img src="../../images/project/forensic/2.jpg" alt="forensic"><br>
+
